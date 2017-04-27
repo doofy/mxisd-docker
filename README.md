@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/kamax-io/mxisd/master/application.example.yaml
 cp application.example.yaml application.yaml
 
 ### Place example config to mounted dir
-mv application.yaml /data/mxisd/.
+mv application.yaml /data/mxisd/mxisd.yaml
 
 ### Use the image to create container
 docker run -v /data/mxisd:/etc/mxis -p 8090:8090 --name mxisd doofy/mxisd
