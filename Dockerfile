@@ -17,7 +17,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 RUN git clone https://github.com/kamax-io/mxisd.git /mxisd
 RUN cd /mxisd && ./gradlew build
 RUN useradd -r mxisd
-RUN mkdir /etc/mxis
+RUN mkdir -p /etc/mxis
 RUN chown mxisd /etc/mxis
 RUN mkdir /opt/mxisd
 RUN cp /mxisd/build/libs/mxisd.jar /opt/mxisd/
