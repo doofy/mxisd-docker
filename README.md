@@ -6,7 +6,7 @@ There you have to put the config or mxisd will not run.
 
 ## Running a mxisd container using the Dockerfile
 ### Build the docker image from Dockerfile
-docker built -t doofy/mxisd .
+docker build -t doofy/mxisd .
 
 ### Gather example config
 https://raw.githubusercontent.com/kamax-io/mxisd/master/application.example.yaml
