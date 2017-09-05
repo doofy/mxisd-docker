@@ -1,3 +1,7 @@
+# Official docker iamge
+The author released an improved docker image here:
+https://github.com/kamax-io/mxisd/blob/master/Dockerfile
+
 This Dockerfile builds an small docker image for the
 Matrix Identity Server Daemon mxisd https://github.com/kamax-io/mxisd.
 
